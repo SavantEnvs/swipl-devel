@@ -1,0 +1,7 @@
++OK
+-ERR unknown command
+:1000
+$5
+hello
+$-1
+*-1

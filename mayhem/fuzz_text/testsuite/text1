@@ -1,0 +1,11 @@
+atom_codes(A, [104,105]).
+sub_atom(hello, B, 2, A, S).
+split_string("/home//jan///nice/path", "/", "", L).
+atom_number('0x1F', N).
+string_code(1, "abc", C).
+upcase_atom('é ü', U).
+closed(S, atom_length(S, L)).
+w(f(X, 'A b', "s", [1|T], {a}, -(-(1)), 1-(2-3)), [quoted(true), ignore_ops(true), max_depth(3)]).
+atom_codes(A, [0xD800, 0x41]).
+char_code(C, 0xDFFF).
+term_to_atom(T, 'foo(X, Y, X)').

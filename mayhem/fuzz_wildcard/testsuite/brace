@@ -1,0 +1,2 @@
+*.{pl,c}
+src/pl-read.c

@@ -1,0 +1,9 @@
+project: savantenvs/swipl-devel
+target: fuzz_format_time
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_format_time/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_format_time
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,18 @@
+>3
+$7
+message
+$7
+channel
+$5
+hello
+=15
+txt:Some string
+!21
+SYNTAX invalid syntax
+~2
+:1
+:2
+|1
++ttl
+:3600
++value

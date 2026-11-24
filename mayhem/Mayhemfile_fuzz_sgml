@@ -1,0 +1,9 @@
+project: savantenvs/swipl-devel
+target: fuzz_sgml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_sgml/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_sgml
+    libfuzzer: true
+    timeout: 10

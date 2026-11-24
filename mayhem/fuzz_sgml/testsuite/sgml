@@ -1,0 +1,1 @@
+a<!DOCTYPE doc [<!ELEMENT doc - - (#PCDATA|b)*><!ELEMENT b - O EMPTY><!ATTLIST b x CDATA #IMPLIED>]><doc>text<b x=1>more</doc>

@@ -1,0 +1,9 @@
+project: savantenvs/swipl-devel
+target: fuzz_wildcard
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_wildcard/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_wildcard
+    libfuzzer: true
+    timeout: 10

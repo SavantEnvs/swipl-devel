@@ -1,0 +1,3 @@
+f(X, Y) :- functor(X, N, A), A > 0, arg(1, X, Y), compare(O, N, Y), O \== (=).
+g(L) :- findall(X-Y, (member(X, L), Y = X), R), msort(R, S), length(S, _).
+h(X) :- X = f(Y), Y == Z, var(Z).

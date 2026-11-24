@@ -1,0 +1,2 @@
+q({|string(X)||text with é ü 中 |}). % comment
+/* block */ s("\x41\ \u00e9 `bq`").
